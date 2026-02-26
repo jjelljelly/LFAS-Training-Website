@@ -49,7 +49,7 @@ export default async function CoursesPage() {
                                         )}
                                     </div>
                                 )}
-                                <Link href={`/courses/${slug}`} className="inline-flex items-center px-4 py-2 text-white rounded-md transition-colors font-medium" style={{ backgroundColor: '#238DC1' }} onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#1a7ba0'} onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#238DC1'}>
+                                <Link href={`/courses/${slug}`} className="inline-flex items-center px-4 py-2 text-white rounded-md transition-colors font-medium hover:opacity-80" style={{ backgroundColor: '#238DC1' }}>
                                     View course
                                 </Link>
                             </article>

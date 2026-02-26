@@ -24,7 +24,11 @@ export default async function CoursesPage() {
                             const introDoc = course.fields?.introductionNew;
                             if (!introDoc?.content) return '';
                             const firstParagraph = introDoc.content.find((node: any) => node.nodeType === 'paragraph');
-                            return firstParagraph?.content?.[0]?.value || '';
+                            const firstContent = firstParagraph?.content?.[0];
+                            if (firstContent && 'value' in firstContent) {
+                                return firstContent.value;
+                            }
+                            return '';
                         };
                         const intro = getIntroText();
                         const procedureFee = course.fields?.procedureFee;

@@ -129,7 +129,7 @@ export default async function CoursePage({ params }: Props) {
                       ),
                       [BLOCKS.LIST_ITEM]: (node, children) => {
                         const unwrappedChildren = node.content.map((item: any) =>
-                          item.nodeType === BLOCKS.PARAGRAPH ? item.content.map((c: any) => c.value).join('') : null
+                          item.nodeType === BLOCKS.PARAGRAPH ? item.content.map((c: any) => 'value' in c ? c.value : '').join('') : null
                         ).filter(Boolean).join('');
                         return <li className="text-base leading-7">{unwrappedChildren || children}</li>;
                       },
@@ -185,7 +185,7 @@ export default async function CoursePage({ params }: Props) {
                   ),
                   [BLOCKS.LIST_ITEM]: (node, children) => {
                     const unwrappedChildren = node.content.map((item: any) =>
-                      item.nodeType === BLOCKS.PARAGRAPH ? item.content.map((c: any) => c.value).join('') : null
+                      item.nodeType === BLOCKS.PARAGRAPH ? item.content.map((c: any) => 'value' in c ? c.value : '').join('') : null
                     ).filter(Boolean).join('');
                     return <li className="text-base text-gray-700 leading-7">{unwrappedChildren || children}</li>;
                   },

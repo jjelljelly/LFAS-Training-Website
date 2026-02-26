@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700">
+  <text x="400" y="140" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="110" fill="#2B89C8" letter-spacing="-2">London</text>
+  <g>
+    <text x="330" y="280" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="150" font-weight="bold" fill="#1A3A52" letter-spacing="-3">Foot</text>
+    <text x="630" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="60" fill="#B8BCC4" letter-spacing="0">and</text>
+  </g>
+  <text x="400" y="420" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="150" font-weight="bold" fill="#1A3A52" letter-spacing="-3">Ankle</text>
+  <text x="400" y="560" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="110" fill="#2B89C8" letter-spacing="-2">Surgery</text>
+</svg>

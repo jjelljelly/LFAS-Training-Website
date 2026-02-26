@@ -1,0 +1,33 @@
+{
+  "name": "lfas-training-next",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@contentful/rich-text-react-renderer": "^16.1.6",
+    "@contentful/rich-text-types": "^17.2.5",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.3.7",
+    "@mui/material": "^7.3.7",
+    "contentful": "^9.1.0",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "typescript": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "25.0.10",
+    "@types/react": "19.2.10",
+    "autoprefixer": "^10.4.24",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^2.2.19"
+  }
+}

@@ -1,0 +1,88 @@
+[00:00:08.298] Server  WARN    ⚠ Minimum recommended TypeScript version is v5.1.0, older versions can potentially be incompatible with Next.js. Detected: 4.9.5
+[00:00:09.360] Server  LOG     ✓ Ready in 7.4s
+[00:04:09.817] Server  LOG     ○ Compiling / ...
+[00:04:17.881] Server  WARN    ⚠ The "images.domains" configuration is deprecated. Please use "images.remotePatterns" configuration instead.
+[00:04:23.355] Browser WARN    Image with src "/LFAS_LOGO.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:04:36.516] Server  LOG     ○ Compiling /specialists ...
+[00:04:51.606] Server  LOG     ○ Compiling /specialists/[slug] ...
+[00:06:26.527] Browser WARN    Image with src "/LFAS_LOGO.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:12:33.090] Server  LOG     ✓ Compiled in 410ms
+[00:12:59.686] Server  LOG     ✓ Compiled in 218ms
+[00:13:29.791] Server  LOG     ✓ Compiled in 252ms
+[00:13:30.728] Server  LOG     ✓ Compiled in 217ms
+[00:15:05.765] Browser WARN    Image with src "https://images.ctfassets.net/81by070by44x/6lXsiIsdRMLxx7ey7KRLDr/00ec37389bd3d18e4161ab42830dfb50/Liz_Isles_Photography_Kaser_Promo-121-scaled-r3ec2pbojpzqk25cnguyo63p460lwdh7y58c348oao__1_.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:11.998] Browser WARN    Image with src "https://images.ctfassets.net/81by070by44x/6lXsiIsdRMLxx7ey7KRLDr/00ec37389bd3d18e4161ab42830dfb50/Liz_Isles_Photography_Kaser_Promo-121-scaled-r3ec2pbojpzqk25cnguyo63p460lwdh7y58c348oao__1_.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:15:36.058] Server  LOG     ✓ Compiled in 62ms
+[00:16:17.680] Server  LOG     ✓ Compiled in 74ms
+[00:17:14.429] Server  LOG     ✓ Compiled in 156ms
+[00:18:25.292] Server  LOG     ✓ Compiled in 102ms
+[00:21:21.187] Server  LOG     ✓ Compiled in 108ms
+[00:21:44.068] Server  LOG     ✓ Compiled in 125ms
+[00:22:04.034] Server  LOG     ✓ Compiled in 70ms
+[00:23:13.244] Server  ERROR   ⨯ TypeError: insuranceCompanies.map is not a function
+[00:23:16.807] Browser ERROR   uncaughtError: TypeError: insuranceCompanies.map is not a function
+[00:24:47.305] Server  LOG     ✓ Compiled in 111ms
+[00:25:02.081] Browser WARN    Image with src "/LFAS_LOGO.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:25:02.081] Browser WARN    Image with src "https://images.ctfassets.net/81by070by44x/6lXsiIsdRMLxx7ey7KRLDr/00ec37389bd3d18e4161ab42830dfb50/Liz_Isles_Photography_Kaser_Promo-121-scaled-r3ec2pbojpzqk25cnguyo63p460lwdh7y58c348oao__1_.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:28:03.259] Server  LOG     ✓ Compiled in 37ms
+[00:28:05.480] Server  LOG     ✓ Compiled in 18ms
+[00:33:03.279] Server  LOG     ✓ Compiled in 4.6s
+[00:33:03.292] Server  LOG     ○ Compiling / ...
+[00:33:18.600] Server  LOG     ✓ Compiled in 92ms
+[00:33:44.673] Server  LOG     ✓ Compiled in 72ms
+[00:34:07.034] Server  LOG     ✓ Compiled in 90ms
+[00:34:30.116] Server  ERROR   ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href=... className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[00:34:31.003] Server  ERROR   ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href=... className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[00:34:31.739] Browser ERROR   uncaughtError: Error: Event handlers cannot be passed to Client Component props.
+  <... href=... className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[00:34:52.272] Server  ERROR   ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href=... className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[00:34:52.860] Server  ERROR   ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href=... className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[00:34:56.379] Browser ERROR   uncaughtError: Error: Event handlers cannot be passed to Client Component props.
+  <... href=... className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[00:35:09.251] Browser WARN    Image with src "/LFAS_LOGO.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:35:11.079] Server  ERROR   ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href=... className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[00:35:14.675] Server  ERROR   ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href=... className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[00:35:16.093] Browser ERROR   uncaughtError: Error: Event handlers cannot be passed to Client Component props.
+  <... href=... className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[00:36:05.651] Server  LOG     ✓ Compiled in 408ms
+[00:36:24.957] Browser WARN    Image with src "/LFAS_LOGO.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:36:24.957] Browser WARN    Image with src "https://images.ctfassets.net/81by070by44x/6lXsiIsdRMLxx7ey7KRLDr/00ec37389bd3d18e4161ab42830dfb50/Liz_Isles_Photography_Kaser_Promo-121-scaled-r3ec2pbojpzqk25cnguyo63p460lwdh7y58c348oao__1_.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:31.428] Server  ERROR   ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href=... className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[00:36:33.577] Server  ERROR   ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <... href=... className=... style=... onMouseEnter=... onMouseLeave={function onMouseLeave} children=...>
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[00:36:34.370] Browser ERROR   uncaughtError: Error: Event handlers cannot be passed to Client Component props.
+  <... href=... className=... style=... onMouseEnter={function onMouseEnter} onMouseLeave=... children=...>
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[00:37:17.130] Server  LOG     ✓ Compiled in 94ms
+[00:37:35.878] Browser WARN    Image with src "/LFAS_LOGO.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:37:35.878] Browser WARN    Image with src "https://images.ctfassets.net/81by070by44x/6lXsiIsdRMLxx7ey7KRLDr/00ec37389bd3d18e4161ab42830dfb50/Liz_Isles_Photography_Kaser_Promo-121-scaled-r3ec2pbojpzqk25cnguyo63p460lwdh7y58c348oao__1_.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
